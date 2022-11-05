@@ -1,6 +1,6 @@
 # Email Regex
 
- /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3})*$/
+ /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/
 
 Tutorial explaining how the email (common) regex works line by line. 
 
@@ -29,7 +29,7 @@ I will be explaining how the email (common) regex works. I will also explain how
 ### Quantifiers
 
 ### OR Operator
-- {2,3} this indicates 2 OR 3 word characters (.com,.us,.co, etc.)
+- {2,6} this indicates 2 OR 6 word characters (.com,.us,.co, etc.)
 ### Character Classes
 - [a-zA-Z0-9._%-] makes sure the characters used are A-Z lowercase and uppercase, numbers 0-9, and can have periods, underscores, and hyphens.
 ### Flags
